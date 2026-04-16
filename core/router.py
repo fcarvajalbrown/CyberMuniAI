@@ -18,7 +18,7 @@ _RULES = [
     (r"top\s+\d+|los\s+\d+\s+más|peores\s+\d+|\d+\s+worst", "top_vulnerable"),
 ]
 
-_HINT_TMPL = "[SUGERENCIA_HERRAMIENTA: usa {tool}] {query}"
+_HINT_TMPL = "[OBLIGATORIO: llama a {tool} AHORA antes de responder. NO respondas sin llamar esta herramienta primero.] {query}"
 
 def route(query: str) -> str:
     """Return query with an injected tool hint if a pattern matches, else return as-is."""
