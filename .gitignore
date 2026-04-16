@@ -21,4 +21,5 @@ Thumbs.db
 .idea/
 
 #Claude
-new_chat_brief.md
+prepare_data.py
+results.json
