@@ -1,0 +1,24 @@
+# venv
+.venv/
+
+# sessions
+sessions/
+
+# byte cache
+__pycache__/
+*.pyc
+*.pyo
+
+# env
+.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# editor
+.vscode/
+.idea/
+
+#Claude
+new_chat_brief.md
